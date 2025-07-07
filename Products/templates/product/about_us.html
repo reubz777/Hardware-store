@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+    <!-- Заголовок страницы -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">О нашей компании</h1>
+        <p class="lead text-muted">Мы - надежный партнер в мире строительных материалов</p>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="row g-4">
+        <!-- История компании -->
+        <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="card-title mb-4"><i class="bi bi-building me-2"></i>Наша история</h2>
+                    <div class="card-text">
+                        <p>Компания "Стройпартнёр" была основана в 2010 году с целью предоставления качественных строительных материалов по доступным ценам.</p>
+                        <p>Начиная с небольшого магазина, мы выросли в сеть строительных гипермаркетов, представленных в 15 городах страны.</p>
+                        <p>Сегодня мы гордимся тем, что помогаем нашим клиентам реализовывать их строительные проекты уже более 13 лет.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Наши преимущества -->
+        <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="card-title mb-4"><i class="bi bi-star-fill me-2"></i>Наши преимущества</h2>
+                    <div class="card-text">
+                        <div class="d-flex mb-3">
+                            <div class="me-3 text-primary">
+                                <i class="bi bi-check-circle-fill fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Широкий ассортимент</h5>
+                                <p class="mb-0 text-muted">Более 10,000 наименований строительных материалов от проверенных производителей</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="me-3 text-primary">
+                                <i class="bi bi-check-circle-fill fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Гарантия качества</h5>
+                                <p class="mb-0 text-muted">Все товары проходят тщательную проверку перед поступлением в продажу</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="me-3 text-primary">
+                                <i class="bi bi-check-circle-fill fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Профессиональные консультации</h5>
+                                <p class="mb-0 text-muted">Наши специалисты помогут подобрать материалы для любого проекта</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Наша команда -->
+        <div class="col-12 mt-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="card-title mb-4"><i class="bi bi-people-fill me-2"></i>Наша команда</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Директор">
+                                <h5>Иван Петров</h5>
+                                <p class="text-muted">Генеральный директор</p>
+                                <p>Опыт работы в строительной отрасли - 20 лет</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Менеджер">
+                                <h5>Елена Смирнова</h5>
+                                <p class="text-muted">Менеджер по закупкам</p>
+                                <p>Работает в компании с 2012 года</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Консультант">
+                                <h5>Алексей Козлов</h5>
+                                <p class="text-muted">Технический консультант</p>
+                                <p>Строительный инженер с 15-летним стажем</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Статистика -->
+        <div class="col-12 mt-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="card-title mb-4"><i class="bi bi-graph-up me-2"></i>Мы в цифрах</h2>
+                    <div class="row text-center">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="display-4 fw-bold text-primary">13+</div>
+                            <p class="text-muted mb-0">Лет на рынке</p>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="display-4 fw-bold text-primary">15</div>
+                            <p class="text-muted mb-0">Городов присутствия</p>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="display-4 fw-bold text-primary">10,000+</div>
+                            <p class="text-muted mb-0">Товаров в ассортименте</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="display-4 fw-bold text-primary">50,000+</div>
+                            <p class="text-muted mb-0">Довольных клиентов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
